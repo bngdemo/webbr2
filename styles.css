@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#companySelect, #fetchButton {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#fetchButton {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#reviewsContainer {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.review {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.review p {
+  margin: 5px 0;
+}
+
+.rating {
+  color: #ffcc00;
+}
